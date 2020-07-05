@@ -30,7 +30,7 @@ button:focus {
 }
 
 @media all and (max-width: 376px) {
-  button {
+  .talk {
     margin-top: 300px;
     margin-left: 50px;
     padding: 5px 10px 5px;
