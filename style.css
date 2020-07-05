@@ -30,9 +30,10 @@ button:focus {
 }
 
 @media all and (max-width: 376px) {
-  .talk {
-    margin-top: 300px;
-    margin-left: 50px;
+  .talkg {
+    position: absolute;
+    top: 300px;
+    left: 20vw;
     padding: 5px 10px 5px;
     font-size: 1rem;
   }
