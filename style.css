@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+body {
+  background-image: linear-gradient(135deg, #3c8ce7 10%, #00eaff 100%);
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  z-index: -1;
+}
+.talk {
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 690px;
+  border-radius: 30px;
+  padding: 20px 40px 20px;
+  font-size: 2.4rem;
+}
+button:focus {
+  outline: none;
+  border-radius: 30px;
+}
+.content {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 3rem;
+  z-index: 100;
+}
