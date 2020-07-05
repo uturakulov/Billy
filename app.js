@@ -116,7 +116,7 @@ function readOutLoud(message) {
 
   speech.volume = 1;
   speech.rate = 1;
-  speech.pitch = 2;
+  speech.pitch = 1;
 
   window.speechSynthesis.speak(speech);
 }
