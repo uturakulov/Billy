@@ -5,18 +5,18 @@
 }
 body {
   background-image: linear-gradient(135deg, #3c8ce7 10%, #00eaff 100%);
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   height: 100vh;
   z-index: -1;
 }
 .talk {
   text-align: center;
-  margin-top: 300px;
-  margin-left: 690px;
+  margin-top: 40vh;
+  margin-left: 40%;
   border-radius: 30px;
-  padding: 20px 40px 20px;
-  font-size: 2.4rem;
+  padding: 2% 4% 2%;
+  font-size: 4vw;
 }
 button:focus {
   outline: none;
@@ -29,15 +29,12 @@ button:focus {
   z-index: 100;
 }
 
-@media all and (max-width: 400px) and (max-height: 850px) {
-  button {
-    margin-top: 50px;
-    margin-left: 50px;
-    padding: 5px 10px 5px;
-    font-size: 1rem;
+@media all and (max-width: 376px) and (max-height: 850px) {
+  html {
+    overflow: hidden;
   }
-  body {
-    width: 375px;
-    height: 100vh;
-  }
+  /* button { */
+  /* padding: 5px 10px 5px; */
+  /* font-size: 1rem; */
+  /* } */
 }
